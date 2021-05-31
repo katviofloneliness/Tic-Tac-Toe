@@ -50,7 +50,7 @@ int main() {
 				screen[i] = '=';
 				screen[2 * screenWidth + i] = L'=';
 			}
-			wsprintf(&screen[screenWidth + 5], L"Tic Tac Shotgun SCORE: %d \%d", score, scoreBot);
+			wsprintf(&screen[screenWidth + 5], L"Tic Tac Shotgun SCORE: %d %d", score, scoreBot);
 			wsprintf(&screen[3 * screenWidth + 5], L"Press F to choose Rock > Scissors");
 			wsprintf(&screen[4 * screenWidth + 5], L"Press H to choose Paper > Rock");
 			wsprintf(&screen[5 * screenWidth + 5], L"Press K to choose Scissors > Paper");
